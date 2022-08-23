@@ -1,0 +1,33 @@
+.login-usuario{
+    border-width: 10px; 
+    border-style: solid; 
+    border-color:  blue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rasa';
+    font-size: 20px;
+    color: black;    
+}
+.login-usuario button{
+    background-color: #C31616;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.login-novo-usuario{
+    border-width: 10px; 
+    border-style: solid; 
+    border-color:  blue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rasa';
+    font-size: 20px;
+    color: black;     
+    
+    
+} 
