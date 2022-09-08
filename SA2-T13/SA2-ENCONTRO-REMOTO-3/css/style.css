@@ -183,7 +183,15 @@ button{
     h1{
         color:blue;
     }
-   
+    .minha-conta a {
+        background-color: #C31616;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding:5px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
     .barras{
         display: inline-block;
         width: 60px;
