@@ -27,8 +27,8 @@ header{
     height:470px;
 }
 
-#barras{
-    display:flex;
+.barras{
+    display:none;
 }
 #menu{
     width: 600px;
@@ -192,14 +192,16 @@ button{
         border-radius: 5px;
         font-size: 13px;
     }
-    #barras{
+    .barras{
         display: inline-block;
-        
-    }
-    .barras-icone{
         width: 60px;
         height: 60px;
+        
     }
+    /* .barras-icone{
+        width: 60px;
+        height: 60px;
+    } */
     #menu{
         display: none;
         flex-direction: column;
