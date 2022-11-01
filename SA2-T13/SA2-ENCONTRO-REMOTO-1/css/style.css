@@ -1,0 +1,91 @@
+/* RESET CSS */
+@import url('https://fonts.googleapis.com/css2?family=Rasa&family=Roboto:ital,wght@0,400;0,700;1,400&family=Titillium+Web:wght@400;700&display=swap');
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #1E1C21;
+    height: 80px;
+}
+
+
+.container-grid {
+    width: 1200px ;
+    margin:0 auto;
+  
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    width: 700px;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+.banner{
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    background-image: url(../img/Banner.jpg)   
+}
+.conteudo-banner{
+    height: 550px ;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+     
+
+}
+
+.posiconamento-banner{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.conteudo-banner h1{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 70px;
+}
+.conteudo-banner p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.conteudo-banner a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #c31616;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+}

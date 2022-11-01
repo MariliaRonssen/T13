@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa&family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:black;
+    height: 80px;
+}
+.logo {
+    width: 200px;
+    height:470px;
+}
+.container-grid {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-grid img{
+    width: 200px;
+    height:470px;
+}
+.menu{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Rasa', serif;
+    font-size: 20px;
+}
+.minha-conta a {
+    background-color: #C31616;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.barras{
+    width: 30px;
+    display: none;
+}
+
+.banner{
+    background-image: url(../img/banner.svg);
+    height: 360px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.galery {
+    width: 630px;
+    height: 560px;
+    background-color: black;
+    overflow: hidden;
+   
+}
+
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    justify-content:center;
+}
+.fotos{
+    background-color: black;
+}
+
+.galery .fotos img {
+    width: 19.9%;
+}
+/* .black-ofertas img{
+    
+    align-items: center;
+    max-width: 400px;
+    max-height: 400px;
+}
+.black-ofertas{
+    display: flex;
+    justify-content:center;
+        
+} */
+.noticias{
+    display: flex;
+    justify-content:center;
+}
+
+
+.oferta-carroceu{
+    display: flex;
+    justify-content:center;
+}
+.secao-icone{
+    background-color:white;
+    
+}
+.icones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icones img{
+    width: 100px;
+}
+.icones p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+.primeiras-ofertas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.oferta-carroceu img{
+    height: 325px;
+    width: 600px;
+}
+.reportagens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.noticias img{
+    height: 300px;
+    width: 400px;
+}
+.promo{
+    display: flex;
+    align-items: center;
+}
+.promo img{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    background-color: rgb(187, 181, 181); 
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.footer-texto a {
+    font-family: 'Rasa';
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-redes-sociais img {
+    
+    height: 60%;
+    width: 20%;  
+          
+}
+.footer-icones img{
+    height: 60%;
+    width: 30%;
+}
+.footer-pagamentos img{
+    height: 60%;
+    width: 100%;
+}
+/* .login-posicionamento{
+    display: flex;
+    align-content: center;
+} */
+ 
+
+/* .login-novo-usuario {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rasa';
+    font-size: 20px;
+    color: black;           
+} */
+/* @media screen and (max-width: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+    .menu{
+        width: 460px;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    .logo{
+        width: 200px;
+    }
+} */
+
+/* @media screen and (max-width: 768px) {
+    h1{
+        color:blue;
+    }
+    .barras{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        right: 65px;
+        background-color: black;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+    .posicionamento-header{
+        position: relative;
+    }
+} */
