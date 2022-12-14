@@ -32,16 +32,16 @@ export class LoginComponent implements OnInit {
       
       if (respostaErro.error == "Email and password are required") {
         this.mensagem = "Digite email e senha"
-      } else if (
-        this.mensagem = respostaErro.error)
+      } else{
+        this.mensagem = respostaErro.error}
         if (respostaErro.error == "Cannot find user") {
           this.mensagem = "usuario não encontrado"
-        } else if (
-          this.mensagem = respostaErro.error)
+        } else{
+          this.mensagem = respostaErro.error}
           if (respostaErro.error == "Password is too short") {
             this.mensagem = "senha muito curta"
-          } else if (
-            this.mensagem = respostaErro.error)
+          } else{
+            this.mensagem = respostaErro.error}
             if (respostaErro.error == "Incorrect password") {
               this.mensagem = "senha errada"
             } else {
