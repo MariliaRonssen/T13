@@ -11,6 +11,12 @@
       "password": "$2a$10$lePcOb5WsomHSbFirkcQi.xeqOBZYOlYrbuZF19wSAPW61h3J3qp2",
       "name": "olisses",
       "id": 2
+    },
+    {
+      "email": "alice@email.com",
+      "password": "$2a$10$znqsH3Nv0x4UuEL/JoQSYexIt45YqZMmdFzJ62FQ0qWBG8V2IW8u.",
+      "name": "alice",
+      "id": 3
     }
   ]
 }
