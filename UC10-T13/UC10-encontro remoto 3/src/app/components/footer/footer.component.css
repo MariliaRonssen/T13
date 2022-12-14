@@ -1,0 +1,74 @@
+
+.footer{
+    background-color: rgb(187, 181, 181); 
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.footer-texto a {
+    font-family: 'Rasa';
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-redes-sociais img {
+    height: 60%;
+    width: 20%;
+    
+}  
+.footer-icones img{
+    height: 60%;
+    width: 30%;
+    
+}
+.footer-pagamentos img{
+    height: 60%;
+    width: 100%;
+}
+
+
+.cadastro-receber-novidades h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+        
+}
+.cadastro-receber-novidades{
+    display: table-column;
+    align-items:flex-start;
+}
+button{
+    background-color: rgb(105, 105, 226);
+      
+}
+@media screen and (max-width: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+    
+
+} 
+@media screen and (max-width: 768px) {
+ 
+    .footer-pagamentos{
+        display: none;
+    }
+    .footer-icones{
+        display: inline-table;
+    }
+    .footer-redes-sociais{
+        display: inline;
+    }
+    .cadastro-receber-novidades h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        color: blue;
+            
+    }
+    #cad-email{
+        width: 150px;
+        height: 20px;
+    }
+}

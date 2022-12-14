@@ -1,0 +1,156 @@
+
+header{
+    background-color:black;
+    height: 80px;
+}
+
+.logo {
+    width: 200px;
+    height:470px;
+}
+.container-grid {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height:470px;
+}
+
+.barras{
+    display:none;
+}
+#menu{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Rasa', serif;
+    font-size: 20px;
+}
+.minha-conta a {
+    background-color: #C31616;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.banner{
+    background-image: url(/assets/img/banner.svg); 
+    height: 360px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+.noticias{
+    display: flex;
+    justify-content:center;
+}
+
+.galery.container{
+    background-color: black;
+
+}
+.secao-icone{
+    background-color:white;
+    
+}
+.icones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icones img{
+    width: 100px;
+}
+.icones p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+.primeiras-ofertas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.oferta-carroceu img{
+    height: 325px;
+    width: 600px;
+}
+.reportagens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.noticias img{
+    height: 300px;
+    width: 400px;
+}
+.promo{
+    display: flex;
+    align-items: center;
+}
+.promo img{
+    
+    width: 1400px;
+    
+}
+.footer{
+    background-color: rgb(187, 181, 181); 
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.footer-texto a {
+    font-family: 'Rasa';
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-redes-sociais img {
+    height: 60%;
+    width: 20%;
+    
+}  
+.footer-icones img{
+    height: 60%;
+    width: 30%;
+    
+}
+.footer-pagamentos img{
+    height: 60%;
+    width: 100%;
+}
+
+
+.cadastro-receber-novidades h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+        
+}
+.cadastro-receber-novidades{
+    display: table-column;
+    align-items:flex-start;
+}
+button{
+    background-color: rgb(105, 105, 226);
+      
+}
+ 

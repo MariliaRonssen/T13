@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa&family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:black;
+    height: 80px;
+}
+
+.logo {
+    width: 200px;
+    height:470px;
+}
+.container-grid {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height:470px;
+}
+
+.barras{
+    display:none;
+}
+#menu{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Rasa', serif;
+    font-size: 20px;
+}
+.minha-conta a {
+    background-color: #C31616;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+    #menu{
+        width: 460px;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    .logo{
+        width: 200px;
+    }
+
+} 
+@media screen and (max-width: 768px) {
+   
+    h1{
+        color:blue;
+    }
+    .minha-conta a {
+        background-color: #C31616;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding:5px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+    .barras{
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        
+    }
+    /* .barras-icone{
+        width: 60px;
+        height: 60px;
+    } */
+    #menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        right: 65px;
+        background-color: rgb(122, 112, 112);
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+    .posicionamento-header{
+        position: relative;
+    }
+}
